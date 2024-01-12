@@ -1,0 +1,27 @@
+.black_line {
+  background: #101010;
+  padding: 3rem 0;
+  margin: 6rem 0;
+}
+
+.black_line div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+.black_line div h2 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+}
+.black_line div p {
+  margin: 0px 14px 0 8px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+}
+.black_line div a {
+  color: #fff;
+  transition: 0.5s all;
+}

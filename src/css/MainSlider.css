@@ -1,0 +1,75 @@
+.mainslider {
+  width: 100%;
+  height: 100vh;
+}
+.mainslider .controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}
+/* .mainslider .controls .control {
+  cursor: pointer;
+} */
+.mainslider .controls > div {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.mainslider .controls > .up {
+  top: 0px;
+  right: 0px;
+  background-color: #fff;
+  color: #111;
+}
+.mainslider .controls > .down {
+  bottom: 0px;
+  left: 0px;
+  background-color: #111;
+  color: #fff;
+}
+.mainslider_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mainslider_wrapper .left,
+.mainslider_wrapper .right {
+  width: 50%;
+  overflow: hidden;
+}
+.mainslider_wrapper .left > div,
+.mainslider_wrapper .right > div {
+  width: 100%;
+  height: 100%;
+}
+.mainslider_wrapper .left > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 100px 0px 50px;
+}
+.mainslider_wrapper .right > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mainslider_wrapper .right div:nth-child(1) {
+  margin-top: 0vh;
+}
+/*  */
+.mainslider .left h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.mainslider .left p {
+  font-size: 16px;
+}
